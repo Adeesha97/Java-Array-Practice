@@ -7,7 +7,7 @@ public class Reverse {
 
         int textInputLength = textInput.length();
 
-        for (int i = textInputLength-1; i >=0 ; i--){
+        for (int i = textInputLength - 1; i >=0 ; i--){
             textOutput1.append(textInput.charAt(i));
         }
 
@@ -15,5 +15,6 @@ public class Reverse {
 
         StringBuilder textOutput2 = new StringBuilder(textInput);
         System.out.println("Reverse Array Method 2 - " + textOutput2.reverse());
+
     }
 }
